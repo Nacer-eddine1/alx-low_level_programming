@@ -12,10 +12,10 @@ int main(void)
 	i = 48;
 	e = 48;
 
-	while (e < 58; e++)
+	while (e < 58)
 	{
 		i = 48;
-		while (i < 58; i++)
+		while (i < 58)
 		{
 			if (e != i && e < i)
 			{
@@ -28,7 +28,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			i++;
 		}
+		e++;
 	}
 	putchar('\n');
 	return (0);
