@@ -1,12 +1,14 @@
 #include "main.h"
 
-/*
+/**
  * string_nconcat - concatenates two strings.
+ * .
  * @s1: string 1
  * @s2: string 2
  * @n: mem size of concatnated string
  *
  * Return: NULL if function fails
+ * if malloc fails, status value is equal to 98.
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
