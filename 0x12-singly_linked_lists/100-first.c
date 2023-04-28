@@ -8,8 +8,8 @@
 void mymain(void) __attribute__ ((constructor));
 
 /**
-* mymainn - implementation of mymain
-*/
+ * mymainn - implementation of mymain
+ */
 
 void mymain(void)
 {
