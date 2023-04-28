@@ -2,13 +2,13 @@
 
 /**
  * mymain - Apply the constructor attribute to mymain() so that it
- * is executed before main()
+ * mymain - prints a sentence before the main
  */
 
 void mymain(void) __attribute__ ((constructor));
 
 /**
- * mymainn - implementation of mymain
+ * mymain - implementation of mymain
  */
 
 void mymain(void)
